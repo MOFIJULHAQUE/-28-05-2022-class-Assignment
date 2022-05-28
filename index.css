@@ -1,0 +1,35 @@
+.left{
+    display: flex;
+    justify-content: space-between;
+    width:40px;
+}
+.center{
+    display: flex;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.right{
+    display: flex;
+}
+.center .submit{
+    height:21.3px;
+}
+header i{
+    cursor: pointer;
+}
+.center .submit:hover{
+    background-color:#e34034;
+}
+.left .logo i{
+    color:red;
+
+}
+.left .logo i:hover{
+    color:rgb(14, 31, 218);
+    outline:2px solid #e34034;
+    outline-offset: 0.3rem;
+    border-radius:5px;
+}
+
